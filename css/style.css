@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+.chalk {
+  font-family: "659_DS-Eraser-Cyr";
+}
+
+.background-image {
+	background-image: url("../image/background.jpg");
+  background-position: 25% 25%;
+  background-repeat: no-repeat; 
+}
+
+.box {
+  min-height: 10em;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.in-box{
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.joke {
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	color: whitesmoke;
+	font-size: 4vw;
+}
+
+.signature {
+	margin-right: 10%;
+	text-align: right;
+	color: lightgray;
+	font-size: 2vw;
+}
+
+@font-face {
+	font-family: "659_DS-Eraser-Cyr";
+	src: url("../fonts/659_DS-Eraser-Cyr.eot");
+	src: local("☺"), url("../fonts/659_DS-Eraser-Cyr.woff") format("woff"), url("../fonts/659_DS-Eraser-Cyr.ttf") format("truetype"), url("../fonts/659_DS-Eraser-Cyr.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
