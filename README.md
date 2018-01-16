@@ -1,6 +1,10 @@
 # Site for the Mood
 
-[TODO. There will be project description]
+The site automatically changes joke message when the page is refreshed.
+
+# Quick start
+
+* https://madinc63.github.io/20_mood/
 
 # Project Goals
 
