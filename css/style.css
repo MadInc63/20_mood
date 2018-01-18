@@ -1,13 +1,15 @@
 @charset "utf-8";
 
 .chalk {
-  font-family: "659_DS-Eraser-Cyr";
+  font-family: "659_DS-Eraser-Cyr", serif
 }
 
 .background-image {
-	background-image: url("../image/background.jpg");
-  background-position: 25% 25%;
-  background-repeat: no-repeat; 
+  background:
+    url("../image/background.jpg")
+    no-repeat
+    25% 25%
+  ;
 }
 
 .box {
@@ -17,12 +19,11 @@
 }
 
 .in-box{
-	margin: 0;
+	margin: 0 -50% 0 0;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
 }
 
 .joke {
